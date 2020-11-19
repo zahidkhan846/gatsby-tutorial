@@ -1,0 +1,32 @@
+body {
+  background-color: beige;
+  font-family: sans-serif;
+}
+h1 {
+  color: brown;
+  text-transform: uppercase;
+}
+
+.images {
+  text-align: center;
+  text-transform: capitalize;
+  width: 80vw;
+  margin: 0 auto 10rem auto;
+}
+
+.image {
+  border: 3px solid red;
+  padding: 1rem 0;
+  margin: 0 auto 1rem auto;
+}
+
+@media screen and (min-width: 990px) {
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+  }
+  .image {
+    margin: 0;
+  }
+}
