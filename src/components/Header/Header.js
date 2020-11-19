@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import "./Header.css"
 
 function Header(props) {
   return (
-    <div>
+    <div className="header">
       <ul>
         <li>
           <Link to="/">Home</Link>
